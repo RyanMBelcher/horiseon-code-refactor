@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* This sets the background color for the page */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* This formats what is contained in the header element */
 
 header {
     padding: 20px;
@@ -20,12 +24,17 @@ header  h1 {
     font-size: 48px;
 }
 
+/* This is making the letters 'seo' in Horiseon change color. */
+
 header h1 .seo {
     color: #d9dcd6;
+    background-color: #2a607c;
 }
 
+/* This is placing the navigation bar be on the right side of the header */
+
 header > nav {
-    display: inline-block;
+    display: block;
     margin-top: 20px;
     float: right;
 }
@@ -36,8 +45,7 @@ header > ul {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 header ul li {
@@ -45,14 +53,20 @@ header ul li {
     margin-left: 25px;
 }
 
+/* This is changing the text color for the navigation links and removes the text decoration (by default link text is underlined, by setting the text decoration to 'none' it is removed) */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This is setting the size of the text within paragraph elements */
+
 p {
     font-size: 16px;
 }
+
+/* This is the main image on the page */
 
 .hero {
     height: 800px;
@@ -77,12 +91,35 @@ p {
     margin-left: 25px;
 }
 
-/* This is everything that is not in the header or footer */
+/* This is contains the features section and the benefits section*/
 
 .content {
     width: 100vw;
     display: flex;
     margin-left: 20px;
+}
+
+.features {
+    display: block;
+    width: 75%;
+}
+
+.features section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.features img {
+    max-height: 200px;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -98,58 +135,15 @@ p {
     background-color: #2589bd;
 }
 
-/* TODO: the next three selectors have the same style */
-
-/* .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 } 
 
-/* TODO: the next three selectors have the same style */
-
-/* .benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-/* TODO: the next three selectors have the same style */
-
-/* .benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 .benefits img {
     display: block;
@@ -157,87 +151,7 @@ p {
     max-width: 150px;
 }
 
-.features {
-    display: block;
-    width: 75%;
-}
-
-/* TODO: the next three selectors have the same style */
-
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-.features section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* TODO: the next three selectors have the same style */
-
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-.features img {
-    max-height: 200px;
-}
-
-/* TODO: the next three selectors have the same style */
-
-/* .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-.features h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* This formats what is contained in the footer element. */
 
 .footer {
     padding: 30px;
