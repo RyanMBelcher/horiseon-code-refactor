@@ -1,3 +1,5 @@
+/* This is setting no padding or margin universally */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,6 +21,8 @@ header {
     color: #ffffff;
 }
 
+/* Tbis formats the h1 within the header */
+
 header  h1 {
     display: inline-block;
     font-size: 48px;
@@ -39,6 +43,8 @@ header > nav {
     float: right;
 }
 
+/* This formats the unordered list within the header */
+
 header > ul {
     list-style-type: none;
     padding-top: 15px;
@@ -47,6 +53,8 @@ header > ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;   
 }
+
+/* This formats the list items within the unordered list */
 
 header ul li {
     display: inline-block;
@@ -99,10 +107,14 @@ p {
     margin-left: 20px;
 }
 
+/* This formats the positioning of this element */
+
 .features {
     display: block;
     width: 75%;
 }
+
+/* This formats the size, color, font, and font color of this section  */
 
 .features section {
     margin-bottom: 20px;
@@ -113,14 +125,20 @@ p {
     color: #ffffff;
 }
 
+/* This formats the image within this section */
+
 .features img {
     max-height: 200px;
 }
+
+/* This formats the h2 element within this section */
 
 .features h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* This formats the positioning, size, color, font, and font color of this section */
 
 .benefits {
     display: block;
@@ -140,10 +158,14 @@ p {
     color: #ffffff;
 } 
 
+/* This formats the h3 element with this section */
+
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* This formats the image within this section  */
 
 .benefits img {
     display: block;
@@ -159,6 +181,8 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* This formats the font size of the text in the footer */
 
 .footer h2 {
     font-size: 20px;
